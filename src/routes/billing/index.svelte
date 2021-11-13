@@ -2,6 +2,7 @@
     import { goto } from '$app/navigation';
 </script>
 <svelte:head>Billing Home</svelte:head>
+<a href="/customer/new">Add New Customer</a>
 <div>
     <h2>Outstanding - Not Billed</h2>
     <p>$1,500</p>
@@ -31,7 +32,7 @@
             </td>
             <td>
                 <a href="/billing/invoice/new">New Invoice</a>
-                <a href="/">Record Payment</a>
+                <a href="/payment/new">Record Payment</a>
                 <a href="/customer/2">Go to Customer</a>
             </td>
         </tr>
