@@ -31,8 +31,8 @@
                 Doc
             </td>
             <td>
-                <a href="/billing/invoice/new">New Invoice</a>
-                <a href="/payment/new">Record Payment</a>
+                <a href="/billing/new-invoice">New Invoice</a>
+                <a href="/billing/new-payment">Record Payment</a>
                 <a href="/customer/2">Go to Customer</a>
             </td>
         </tr>
